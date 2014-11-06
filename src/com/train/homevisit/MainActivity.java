@@ -26,6 +26,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends ActionBarActivity {
 
@@ -210,6 +211,7 @@ public class MainActivity extends ActionBarActivity {
 				copyFile(myInput, myOutput);
 				
 				Log.d(getPackageName(),"Export OK");
+				Toast.makeText(getApplicationContext(), "OK", Toast.LENGTH_SHORT).show();
 
 				
 

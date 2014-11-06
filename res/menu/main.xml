@@ -14,5 +14,10 @@
         android:orderInCategory="100"
         android:title="Export"
         app:showAsAction="never"/>
+      
+      <item android:id="@+id/action_syncall"
+          android:orderInCategory="100" 
+          android:title="Sync" 
+           app:showAsAction="never" />
 
 </menu>
